@@ -1,0 +1,13 @@
+{
+  "data": "data/raw/nodulemnist3d.npz",
+  "output": "outputs/baseline",
+  "device": "auto",
+  "seed": 42,
+  "epochs": 40,
+  "batch_size": 32,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "patience": 8,
+  "threads": 2,
+  "augmentation": []
+}

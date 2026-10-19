@@ -1,0 +1,17 @@
+{
+  "data": "data/raw/nodulemnist3d.npz",
+  "output": "outputs/augmented",
+  "device": "auto",
+  "seed": 42,
+  "epochs": 40,
+  "batch_size": 32,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "patience": 8,
+  "threads": 2,
+  "augmentation": [
+    {"name": "flip", "p": 0.5},
+    {"name": "noise", "p": 0.5, "sigma": [0.01, 0.08]},
+    {"name": "contrast", "p": 0.5, "factor": [0.65, 1.15]}
+  ]
+}
