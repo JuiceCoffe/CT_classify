@@ -4,3 +4,4 @@ outputs/
 data/raw/*.npz
 data/raw/*.part
 feishu_report.xml
+NoduleMNIST3D_肺结节分类实验报告.docx
